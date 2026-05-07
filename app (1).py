@@ -115,7 +115,7 @@ Respuesta:
 # =======================
 
 st.set_page_config(page_title="Chat PDF con MongoDB + Gemini", page_icon="💬")
-st.title("💬 Chatbot de tu PDF (MongoDB + Gemini)")
+st.title("💬 Preguntale todo sobre películas")
 
 if "historial" not in st.session_state:
     st.session_state.historial = []
